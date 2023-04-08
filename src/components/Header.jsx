@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../assets/logo.png';
+import { Link } from 'react-router-dom';
 import { home, cart, promo, diagram, wallet, avatar, service, logout } from '../assets';
 const Header = () => {
 
@@ -14,7 +15,7 @@ const Header = () => {
           </li>
           <li>
             <a href="/">
-              <img src={home} alt="" className="icons"/>
+              <img src={home} alt="" className="icons mt30"/>
               <span className="nav-item">Главная</span>
             </a>
           </li>

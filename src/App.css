@@ -61,7 +61,6 @@ a:hover {
   border-left: solid;
   border-color: #6666CC;
   border-width: 4px;
-  
 }
 
 .nav-item:hover {
@@ -69,4 +68,6 @@ a:hover {
 }
 
 
-
+.mt30 {
+  margin-top: 30px;
+}
