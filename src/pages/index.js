@@ -1,8 +1,9 @@
-export { deafult as Account } from './Account';
-export { deafult as Diagram } from './Diagram';
-export { deafult as Home } from './Home';
-export { deafult as Logout } from './Logout';
-export { deafult as Promo } from './Promo';
-export { deafult as Service } from './Service';
-export { deafult as Shops } from './Shops';
-export { deafult as Wallet } from './Wallet';
+export { default as Account } from './Account';
+export { default as Diagram } from './Diagram';
+export { default as Home } from './Home';
+export { default as Logout } from './Logout';
+export { default as Promo } from './Promo';
+export { default as Service } from './Service';
+export { default as Shops } from './Shops';
+export { default as Wallet } from './Wallet';
+ 

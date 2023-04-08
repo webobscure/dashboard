@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../assets/logo.png';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { home, cart, promo, diagram, wallet, avatar, service, logout } from '../assets';
 const Header = () => {
 
@@ -9,57 +9,57 @@ const Header = () => {
       <nav className="nav">
         <ul>
           <li>
-            <a href="/" className='logo'>
+            <NavLink to="/" className='logo'>
               <img src={logo} alt="logo" className='icon-logo' />
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="/">
+            <NavLink to="/">
               <img src={home} alt="" className="icons mt30"/>
               <span className="nav-item">Главная</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="/">
+            <NavLink to="/shops">
               <img src={cart} alt="" className="icons"/>
               <span className="nav-item">Мои магазины</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="/">
+            <NavLink to="/promos">
               <img src={promo} alt="" className="icons"/>
               <span className="nav-item">Промоматериалы</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="/">
+            <NavLink to="/statistic">
               <img src={diagram} alt="" className="icons"/>
               <span className="nav-item">Статистика</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="/">
+            <NavLink to="/balance">
               <img src={wallet} alt="" className="icons"/>
               <span className="nav-item">Баланс</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="/">
+            <NavLink to="/account">
               <img src={avatar} alt="" className="icons"/>
               <span className="nav-item">Персональные данные</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="/">
+            <NavLink to="/service">
               <img src={service} alt="" className="icons"/>
               <span className="nav-item">Техподдержка</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="/" className='logout'>
+            <NavLink to="/logout" className='logout'>
               <img src={logout} alt="" className="icons"/>
               <span className="nav-item">Выход</span>
-            </a>
+            </NavLink>
           </li>
         </ul>
       </nav>
