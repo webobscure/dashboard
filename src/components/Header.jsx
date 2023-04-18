@@ -1,17 +1,17 @@
 import React from 'react';
 import logo from '../assets/logo.png';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { home, cart, promo, diagram, wallet, avatar, service, logout } from '../assets';
 const Header = () => {
 
   return (
     <div>
-      <nav className="nav">
+      <nav className="nav ">
         <ul>
           <li>
-            <NavLink to="/" className='logo'>
+            <Link to="/" className='logo'>
               <img src={logo} alt="logo" className='icon-logo' />
-            </NavLink>
+            </Link>
           </li>
           <li>
             <NavLink to="/">
